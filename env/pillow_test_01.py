@@ -1,6 +1,8 @@
 from PIL import Image
+import shutil
 import requests
 import os
+import glob
 from pprint import pprint
 
 bridge = Image.open("/Users/mtlynchjr/Desktop/Final Semester/pillow_test_01/env/golden_gate.jpg") # Image opened from directory folder
